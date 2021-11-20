@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
-	<script src="bundle.js" type="text/javascript"></script>
-</head>
+  <head>
+    <title></title>
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script src="bundle.js" type="text/javascript"></script>
+  </head>
 
-<body>
-	<div id="container">
-
-	<!-- Start your code from here -->
-	
-	<!-- End your code -->
-
-	</div>
-</body>
-<script>
-/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-	// Get HTML head element
-	var head = document.getElementsByTagName('HEAD')[0]; 
-	// Create new link Element
-	var link = document.createElement('link');
-	// set the attributes for link element 
-	link.rel = 'stylesheet'; 
-	link.type = 'text/css';
-	link.href = './assignment3.css?v='+ new Date().getTime(); 
-	// Append link element to HTML head
-	head.appendChild(link); 
-	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-</script> 
+  <body>
+    <div id="container">
+      <!-- Start your code from here -->
+      <section class="first">
+        <div class="content-first">
+          <h1 class="flow">Your Best Value Proposition.</h1>
+          <p class="flow">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur maiores exercitationem provident architecto sint laborum
+            voluptates blanditiis. Recusandae, voluptatum.
+          </p>
+          <button class="flow">Start Free Trial</button>
+        </div>
+        <div class="iframe-parent"><iframe id="render-wiki" src="https://www.wikipedia.org/"></iframe></div>
+      </section>
+      <section class="second">
+        <div class="content-second">
+          <h1 class="h12">Your Best Value Proposition.</h1>
+          <p class="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur maiores exercitationem provident architecto sint laborum
+            voluptates blanditiis. Recusandae, voluptatum.
+          </p>
+          <button class="b2">Start Free Trial</button>
+        </div>
+        <iframe
+          id="render-dictionary"
+          src="https://www.dictionary.com/"
+        ></iframe>
+      </section>
+      <!-- End your code -->
+    </div>
+  </body>
+  <script>
+    /* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+    // Get HTML head element
+    var head = document.getElementsByTagName("HEAD")[0];
+    // Create new link Element
+    var link = document.createElement("link");
+    // set the attributes for link element
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = "./assignment3.css?v=" + new Date().getTime();
+    // Append link element to HTML head
+    head.appendChild(link);
+    /* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+  </script>
 </html>
